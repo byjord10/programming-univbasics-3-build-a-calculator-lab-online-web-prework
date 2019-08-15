@@ -1,4 +1,5 @@
 require 'spec_helper'
+
 def addition(num1=5,num2=4)
 sum = num1 + num2
 end
@@ -21,6 +22,6 @@ def modulo(num1 = 34, num2 = 5)
 end
 
 def square_root(num = 81)
-  sum = sqrt(num)
+  sum = square_root(num)
 
 end
