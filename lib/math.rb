@@ -21,7 +21,7 @@ def modulo(num1 = 34, num2 = 5)
 
 end
 
-def square_root(num = 81)
-  sum = square_root(num)
+def square_root(num)
+  Math.sqrt(num)
 
 end
